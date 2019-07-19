@@ -1,0 +1,115 @@
+.body{
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
+}
+#contenido{
+  width: 1100px;
+  height: auto;
+  margin: 10px;
+}
+.musica-body {
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#cabecera{
+  background-color: #ccCCCC;
+  margin-top: 10px;
+  align-items: center;
+
+}
+
+.navbar-inverse {
+  background-color: #ccCCCC;
+  min-height: 10%;
+  border: none;
+  text-align:center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.container-fluid {
+  margin-top: 0;
+}
+.jumbotron {
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+button{
+  width: 100%;
+}
+.search{
+  margin: 4%;
+}
+.jumbotron-img {
+  width: 100%;
+  text-align: center;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.jumbotron-text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #515B5D;
+}
+.logousuario{
+  width: 100%;
+  height: auto;
+}
+.redes-sociales {
+  margin-top: 5%;
+  margin-right: 2%;
+  text-align: right;
+}
+h3{
+  color: #FFCC00;
+  text-shadow: 1px 2px #999;
+}
+.barra_vertical{
+
+  data-toggle: "collapse";
+}
+
+
+
+@media screen and  (max-width:900px) {
+  .jumbotron-img {
+    position:absolute;
+ }
+ .logousuario{
+   width: 100%;
+   height: auto;
+ }
+.barra_vertical{
+  data-toggle: "collapse.show";
+}
+}
+
+
+@media screen and  (max-width:600px) {
+  .jumbotron-img {
+    position:relative;
+ }
+ .logousuario{
+   width: 15%;
+   height: auto;
+ }
+ .barra_vertical{
+   data-toggle: "collapse";
+ }
+
+}
