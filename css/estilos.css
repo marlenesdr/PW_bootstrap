@@ -1,27 +1,28 @@
-.body{
-  width: 70%;
+body{
+  width: 90%;
   margin: 0 auto;
   align-items: center;
+  background-color: #515B5D;
 }
 #contenido{
-  width: 1100px;
+  width: 1000px;
   height: auto;
   margin: 10px;
 }
-.musica-body {
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+.redes-sociales {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  text-align: right;
+}
+.img-social{
+  width: 10%;
+  height: auto;
 }
 #cabecera{
   background-color: #ccCCCC;
-  margin-top: 10px;
   align-items: center;
-
 }
-
 .navbar-inverse {
   background-color: #ccCCCC;
   min-height: 10%;
@@ -32,9 +33,13 @@
   margin-left: 2%;
   margin-right: 2%;
 }
-
-.container-fluid {
-  margin-top: 0;
+.cuerpo{
+  margin-top: 10px;
+  background-color: #fafafafa;
+}
+.articulos{
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .jumbotron {
   background-attachment: scroll;
@@ -43,12 +48,6 @@
   min-height: 500px;
   border-radius: 0px !important;
   margin-bottom: 0px;
-}
-button{
-  width: 100%;
-}
-.search{
-  margin: 4%;
 }
 .jumbotron-img {
   width: 100%;
@@ -60,20 +59,26 @@ button{
   bottom: 0;
   margin: auto;
 }
-
 .jumbotron-text {
   font-size: 16px;
   margin-top: 20px;
   color: #515B5D;
 }
-.logousuario{
+.vertical{
   width: 100%;
+}
+.logousuario{
+  width: 50px;
   height: auto;
 }
-.redes-sociales {
-  margin-top: 5%;
-  margin-right: 2%;
-  text-align: right;
+.mensajes{
+ width: 90%;
+}
+button{
+  width: 100%;
+}
+.search{
+  margin: 4%;
 }
 h3{
   color: #FFCC00;
@@ -87,29 +92,56 @@ h3{
 
 
 @media screen and  (max-width:900px) {
+  .logo{
+    width: 100%;
+    height: auto;
+  }
+  .redes-sociales {
+    margin-right: 2%;
+    text-align: center;
+  }
+
   .jumbotron-img {
-    position:absolute;
+    position:relative;
+    width: 100%;
  }
  .logousuario{
-   width: 100%;
+   width: 40px;
    height: auto;
  }
 .barra_vertical{
   data-toggle: "collapse.show";
 }
+.vertical{
+  visibility: visible;
+  width: 100%;
+}
+
 }
 
 
 @media screen and  (max-width:600px) {
+  .logo{
+    width: 50%;
+    height: auto;
+  }
+  .redes-sociales {
+    margin-right: 2%;
+    text-align: center;
+  }
+
   .jumbotron-img {
     position:relative;
- }
- .logousuario{
-   width: 15%;
-   height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
  }
  .barra_vertical{
    data-toggle: "collapse";
+ }
+ .vertical{
+   visibility: hidden;
+   height: 0px;
  }
 
 }
